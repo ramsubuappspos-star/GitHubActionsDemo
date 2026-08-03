@@ -26,8 +26,8 @@ jobs:
       - name: Verify Code Formatting
         run: dotnet format --verify-no-changes
 
-      - name: Build Project
-        run: dotnet build --configuration Release
+      - name: Build (Treat Warnings as Errors)
+        run: dotnet build --configuration Release --no-restore -warnaserror
 
       - name: Publish
         run: dotnet publish --configuration Release
