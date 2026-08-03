@@ -77,3 +77,4 @@ jobs:
 
         # Produces deployment-ready files in the publish folder.
         run: dotnet publish --configuration Release
+        
