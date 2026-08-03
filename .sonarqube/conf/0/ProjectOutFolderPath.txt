@@ -1,0 +1,1 @@
+D:\Subu\GitHubActionsDemo\GitHubActionsDemo\.sonarqube\out\0

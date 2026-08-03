@@ -1,0 +1,92 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "10.4.1"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "GitHubActionsDemo"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo"
+    },
+    {
+      "key": "sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "BC736628-76CA-4726-BEB4-BAD3B425BBA6"
+    },
+    {
+      "key": "BC736628-76CA-4726-BEB4-BAD3B425BBA6.sonar.projectKey",
+      "value": "GitHubActionsDemo:BC736628-76CA-4726-BEB4-BAD3B425BBA6"
+    },
+    {
+      "key": "BC736628-76CA-4726-BEB4-BAD3B425BBA6.sonar.projectName",
+      "value": "GitHubActionsDemo"
+    },
+    {
+      "key": "BC736628-76CA-4726-BEB4-BAD3B425BBA6.sonar.projectBaseDir",
+      "value": "D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo"
+    },
+    {
+      "key": "BC736628-76CA-4726-BEB4-BAD3B425BBA6.sonar.working.directory",
+      "value": "D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "BC736628-76CA-4726-BEB4-BAD3B425BBA6.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "BC736628-76CA-4726-BEB4-BAD3B425BBA6.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "BC736628-76CA-4726-BEB4-BAD3B425BBA6.sonar.sources",
+      "value": "D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\Program.cs,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\obj\\Debug\\net10.0\\GitHubActionsDemo.GlobalUsings.g.cs,\"D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs\",D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\obj\\Debug\\net10.0\\GitHubActionsDemo.AssemblyInfo.cs,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\obj\\Debug\\net10.0\\GitHubActionsDemo.MvcApplicationPartsAssemblyInfo.cs,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\appsettings.Development.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\appsettings.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\GitHubActionsDemo.http,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\Properties\\launchSettings.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\obj\\GitHubActionsDemo.csproj.nuget.dgspec.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\obj\\project.assets.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\.github\\workflows\\build.yml,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\bin\\Debug\\net10.0\\appsettings.Development.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\bin\\Debug\\net10.0\\appsettings.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\bin\\Debug\\net10.0\\GitHubActionsDemo.deps.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\bin\\Debug\\net10.0\\GitHubActionsDemo.runtimeconfig.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\bin\\Debug\\net10.0\\GitHubActionsDemo.staticwebassets.endpoints.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\obj\\Debug\\net10.0\\GitHubActionsDemo.sourcelink.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\obj\\Debug\\net10.0\\rjsmcshtml.dswa.cache.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\obj\\Debug\\net10.0\\rjsmrazor.dswa.cache.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\obj\\Debug\\net10.0\\rpswa.dswa.cache.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\obj\\Debug\\net10.0\\staticwebassets.build.endpoints.json,D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\obj\\Debug\\net10.0\\staticwebassets.build.json"
+    },
+    {
+      "key": "BC736628-76CA-4726-BEB4-BAD3B425BBA6.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\.sonarqube\\out\\0"
+    },
+    {
+      "key": "BC736628-76CA-4726-BEB4-BAD3B425BBA6.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\.sonarqube\\out\\0\\Issues.json"
+    },
+    {
+      "key": "BC736628-76CA-4726-BEB4-BAD3B425BBA6.sonar.cs.scanner.telemetry",
+      "value": "D:\\Subu\\GitHubActionsDemo\\GitHubActionsDemo\\.sonarqube\\out\\0\\Telemetry.json"
+    },
+    {
+      "key": "sonar.token",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://localhost:9000"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}

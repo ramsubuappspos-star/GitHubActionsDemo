@@ -1,0 +1,9 @@
+﻿D:\Subu\GitHubActionsDemo\GitHubActionsDemo\Program.cs
+D:\Subu\GitHubActionsDemo\GitHubActionsDemo\obj\Debug\net10.0\GitHubActionsDemo.GlobalUsings.g.cs
+D:\Subu\GitHubActionsDemo\GitHubActionsDemo\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+D:\Subu\GitHubActionsDemo\GitHubActionsDemo\obj\Debug\net10.0\GitHubActionsDemo.AssemblyInfo.cs
+D:\Subu\GitHubActionsDemo\GitHubActionsDemo\obj\Debug\net10.0\GitHubActionsDemo.MvcApplicationPartsAssemblyInfo.cs
+D:\Subu\GitHubActionsDemo\GitHubActionsDemo\appsettings.Development.json
+D:\Subu\GitHubActionsDemo\GitHubActionsDemo\appsettings.json
+D:\Subu\GitHubActionsDemo\GitHubActionsDemo\GitHubActionsDemo.http
+D:\Subu\GitHubActionsDemo\GitHubActionsDemo\Properties\launchSettings.json
