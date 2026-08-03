@@ -11,7 +11,13 @@ on:
     branches:
       - main
       - dev
-
+# Prevent multiple builds of the same branch from running at the same time.
+# If a new push happens while another build is running,
+# the old build is cancelled and the new one starts.
+concurrency:
+  group: build-main
+  cancel-in-progress: true
+  
 # A workflow can contain one or more jobs.
 jobs:
 

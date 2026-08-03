@@ -41,4 +41,3 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 }
 
 // GitHub Actions Demo
-string name = 100;
