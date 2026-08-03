@@ -1,33 +1,70 @@
+# Workflow name shown in the GitHub Actions tab.
 name: Build ASP.NET Core
 
+# Defines the event(s) that trigger this workflow.
 on:
+
+  # Run this workflow whenever code is pushed.
   push:
+
+    # Only trigger when the push is to the 'main' branch.
     branches:
       - main
 
+# A workflow can contain one or more jobs.
 jobs:
+
+  # Job ID (can be any valid name).
+  # This ID is used internally by GitHub Actions.
   build:
 
+    # The operating system (runner) where this job executes.
+    # GitHub creates a temporary Ubuntu Linux virtual machine.
     runs-on: ubuntu-latest
 
+    # A job consists of one or more steps.
     steps:
 
+      # Step 1: Download the repository source code
       - name: Checkout Code
+
+        # Uses a pre-built GitHub Action from the Marketplace.
+        # actions/checkout downloads your repository into the runner.
         uses: actions/checkout@v4
 
+      # Step 2: Install the required .NET SDK
       - name: Install .NET
+
+        # Official GitHub Action to install the .NET SDK.
         uses: actions/setup-dotnet@v4
+
+        # Configuration for the setup-dotnet action.
         with:
+
+          # Install the latest available .NET 10 SDK (for example, 10.0.100).
           dotnet-version: '10.0.x'
 
+      # Step 3: Restore NuGet packages
       - name: Restore Packages
+
+        # Same as running this command on your local machine.
         run: dotnet restore
 
+      # Step 4: Verify code formatting
       - name: Verify Code Formatting
+
+        # Checks whether the code matches the project's formatting rules.
+        # If formatting changes are needed, the workflow fails.
         run: dotnet format --verify-no-changes
 
+      # Step 5: Build the application
       - name: Build
+
+        # Compiles the project in Release mode.
         run: dotnet build --configuration Release
 
+      # Step 6: Publish the application
       - name: Publish
+
+        # Produces deployment-ready files in the publish folder.
         run: dotnet publish --configuration Release
