@@ -10,6 +10,7 @@ on:
     # Only trigger when the push is to the 'main' branch.
     branches:
       - main
+      - dev
 
 # A workflow can contain one or more jobs.
 jobs:
