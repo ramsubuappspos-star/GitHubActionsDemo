@@ -1,3 +1,4 @@
+
 # Workflow name shown in the GitHub Actions tab.
 name: Build ASP.NET Core
 
@@ -11,6 +12,7 @@ on:
     branches:
       - main
       - dev
+      
 # Prevent multiple builds of the same branch from running at the same time.
 # If a new push happens while another build is running,
 # the old build is cancelled and the new one starts.
