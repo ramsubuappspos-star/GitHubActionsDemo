@@ -1,3 +1,4 @@
+
 # Workflow name shown in the GitHub Actions tab.
 name: Build ASP.NET Core
 
@@ -76,3 +77,4 @@ jobs:
 
         # Produces deployment-ready files in the publish folder.
         run: dotnet publish --configuration Release
+        
