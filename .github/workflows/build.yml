@@ -23,6 +23,9 @@ jobs:
       - name: Restore Packages
         run: dotnet restore
 
+      - name: Verify Code Formatting
+        run: dotnet format --verify-no-changes
+
       - name: Build Project
         run: dotnet build --configuration Release
 
